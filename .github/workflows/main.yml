@@ -25,8 +25,8 @@ jobs:
                file: 02-kube-news/src/Dockerfile
                push: true
                tags: |
-                lucoflow/kube-news-maratona:v${{ github.run_number }}
-                lucoflow/kube-news-maratona:latest
+                haiflow/kube-news-maratona:v${{ github.run_number }}
+                haiflow/kube-news-maratona:latest
                 
     CD:
         needs: [CI]
