@@ -1,5 +1,10 @@
 {
     "yaml.schemas": {
         "kubernetes://schema/v1%40service": "file:///home/luizmattos/live/maratona-devops-ia/00-exemplo-deploy/deployment.yaml"
-    }
+    },
+    "github-actions.custom-secrets": [
+        "DOCKERHUB_USERNAME",
+        "DOCKERHUB_TOKEN",
+        "KUBE_CONFIG"
+    ]
 }
