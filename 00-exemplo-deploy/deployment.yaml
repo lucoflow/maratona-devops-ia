@@ -13,10 +13,10 @@ spec:
         app: web
     spec:
       containers:
-        - name: web
-          image: haiflow/web-color:green
-          ports:
-            - containerPort: 80
+      - name: web
+        image: fabricioveronez/web-color:blue
+        ports:
+        - containerPort: 80
 ---
 apiVersion: v1
 kind: Service
